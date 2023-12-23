@@ -1,0 +1,30 @@
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\bin\Debug\net7.0\appsettings.json
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\bin\Debug\net7.0\Muhammed Saad CV.staticwebassets.runtime.json
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\bin\Debug\net7.0\Muhammed Saad CV.exe
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\bin\Debug\net7.0\Muhammed Saad CV.deps.json
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\bin\Debug\net7.0\Muhammed Saad CV.runtimeconfig.json
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\bin\Debug\net7.0\Muhammed Saad CV.dll
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\bin\Debug\net7.0\Muhammed Saad CV.pdb
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\Muhammed Saad CV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\Muhammed Saad CV.AssemblyInfoInputs.cache
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\Muhammed Saad CV.AssemblyInfo.cs
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\Muhammed Saad CV.csproj.CoreCompileInputs.cache
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\Muhammed Saad CV.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\Muhammed Saad CV.RazorAssemblyInfo.cache
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\Muhammed Saad CV.RazorAssemblyInfo.cs
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\staticwebassets\msbuild.Muhammed Saad CV.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\staticwebassets\msbuild.build.Muhammed Saad CV.props
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Muhammed Saad CV.props
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Muhammed Saad CV.props
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\scopedcss\bundle\Muhammed Saad CV.styles.css
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\scopedcss\projectbundle\Muhammed Saad CV.bundle.scp.css
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\Muhammed Saad CV.dll
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\refint\Muhammed Saad CV.dll
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\Muhammed Saad CV.pdb
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\Muhammed Saad CV.genruntimeconfig.cache
+C:\Users\rough\source\repos\Muhammed Saad CV\Muhammed Saad CV\obj\Debug\net7.0\ref\Muhammed Saad CV.dll

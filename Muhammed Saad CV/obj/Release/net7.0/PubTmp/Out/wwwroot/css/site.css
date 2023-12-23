@@ -1,0 +1,855 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.navbar {
+    background-color: #808080; /* This is a medium grey */
+}
+
+* {
+    box-sizing: border-box
+}
+
+.slideshow-container {
+    max-width: 50%;
+    position: relative;
+    margin: auto; /* This will center the slideshow */
+    z-index: 2;
+}
+
+
+.mySlides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .mySlides img {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+.mySlides img {
+    width: 100%; /* This will make the image take up the full width of the container */
+    height: auto; /* This will scale the height while maintaining the aspect ratio */
+}
+
+.text1 {
+    display: block;
+    color: #f2f2f2;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Vladimir Script';
+    margin: auto;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 50px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Vladimir Script';
+    margin: auto;
+}
+
+
+
+.numbertext {
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+.fade {
+    animation-name: fade;
+    animation-duration: 10s;
+}
+
+
+
+
+
+.text-slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px; /* Adjust this value to increase or decrease the space */
+    z-index: 2;
+}
+
+
+.myTextSlides {
+    display: none;
+}
+
+.prevText, .nextText {
+}
+
+.nextText {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    .prevText:hover, .nextText:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+.fadeText {
+    animation-name: fadeText;
+    animation-duration: 1.5s;
+}
+
+
+
+.dotText {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+
+    .activeText, .dotText:hover {
+        background-color: #717171;
+    }
+
+
+
+body {
+    background: #000;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Varela Round', sans-serif;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+}
+
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #FFF;
+}
+
+
+
+h1 {
+    color: #fc3565;
+    padding-bottom: 0px;
+    margin-bottom: 1%;
+}
+
+.catch {
+    color: whitesmoke;
+    padding-bottom: 0px;
+    margin-bottom: 1%;
+}
+
+h2 {
+    color: #555560;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.top {
+    padding-bottom: 5rem;
+}
+
+
+
+
+
+.pulled h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeText {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+.left-column {
+    float: left;
+    width: 35%;
+    background-color: lightgrey;
+    height: 270vh;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.right-column {
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 2px solid black;
+    height: 270vh;
+    border-bottom: 2px solid black;
+}
+
+.Heading {
+    background-color: lightslategrey;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.educationheading {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.headingrespon {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.headingworkexp {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.htcheading {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.mynameheading {
+    text-align: center;
+    font-style: italic;
+}
+
+.subheading {
+    text-align: center;
+    font-family:'Sitka Small';
+}
+
+.allreasonheading {
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.cvheading {
+    text-align: center;
+    font-family: 'Sitka Heading', serif; /* Added a generic family fallback */
+    color:black;
+}
+
+.Heading h1, .Heading h2 {
+    margin: 0; /* This will remove the default margin */
+}
+
+.contact h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.image {
+    border-radius: 100%;
+    width: 192px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.imagestyle {
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.imagestyle2 {
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+}
+
+hr {
+    border-top: 5px solid black;
+}
+
+.centered-paragraph {
+    display: block;
+    width: 450px;
+    margin-right: calc((65% - 450px) / 2);
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.centered-paragraph1 {
+    display: block;
+    width: 450px;
+    margin-right: calc((65% - 450px) / 2);
+    margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.paragraph1 {
+    text-align: left;
+    margin: auto;
+}
+
+.paragraphdefault {
+    text-align: center;
+    margin: auto;
+}
+
+.paragraphdefault1 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.reasonparagraph {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.underline {
+    border-top: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.underlineheading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.portfolio {
+    margin-bottom: 10px
+}
+
+.Port {
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: 10px;
+}
+
+.skills {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+
+/* Mobile first queries */
+
+
+/* Larger than mobile */
+
+@media (min-width: 400px) {
+}
+
+
+/* Larger than phablet */
+
+@media (min-width: 550px) {
+}
+
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+}
+
+
+/* Larger than desktop */
+
+@media (min-width: 1000px) {
+}
+
+
+/* Larger than Desktop HD */
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .image {
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-radius: 100%;
+    }
+    
+
+
+    .left-column {
+        float: left;
+        width: 35%;
+        background-color: lightgrey;
+        height: 1900vh;
+        border-bottom: 2px solid black;
+        border-left: 2px solid black;
+    }
+
+    .right-column {
+        margin-left: auto;
+        margin-right: auto;
+        border-right: 2px solid black;
+        height: 1900vh;
+        border-bottom: 2px solid black;
+    }
+
+    .Heading {
+        background-color: lightslategrey;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        border-top: 2px solid black;
+        text-size-adjust:auto;
+    }
+
+    .educationheading {
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 10px;
+        text-size-adjust: auto;
+    }
+
+    .headingrespon {
+        text-align: center;
+        margin-bottom: 10px;
+        text-size-adjust: auto;
+    }
+
+    .headingworkexp {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-size-adjust: auto;
+    }
+
+    .htcheading {
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .mynameheading {
+        text-align: center;
+        font-style: italic;
+        text-size-adjust:auto;
+        font-size:12vh;
+    }
+
+    .subheading {
+        text-align: center;
+        font-family: 'Sitka Small';
+    }
+
+    .allreasonheading {
+        text-align: center;
+        margin-bottom: auto;
+        margin-top: 5px;
+        text-decoration: underline;
+    }
+
+    .cvheading {
+        text-align: center;
+        font-family: 'Sitka Heading', serif; /* Added a generic family fallback */
+        color: black;
+    }
+
+    .Heading h1, .Heading h2 {
+        margin: 0; /* This will remove the default margin */
+    }
+
+    .contact h3 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+
+   
+    .imagestyle {
+        vertical-align: middle;
+        width: 25px;
+        height: 25px;
+    }
+
+    .imagestyle2 {
+        vertical-align: middle;
+        width: 15px;
+        height: 15px;
+    }
+
+    hr {
+        border-top: 5px solid black;
+    }
+    .centered-paragraph {
+        display: block;
+        width: 300px; /* Adjust as needed */
+        margin-right: calc((65% - 300px) / 2);
+        margin-left: auto;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .centered-paragraph1 {
+        display: block;
+        width: 300px; /* Adjust as needed */
+        margin-right: calc((65% - 300px) / 2);
+        margin-left: auto;
+        margin-bottom: 5px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .paragraph1 {
+        text-align: left;
+        margin: auto;
+    }
+
+    .paragraphdefault {
+        text-align: center;
+        margin: auto;
+    }
+
+    .paragraphdefault1 {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .reasonparagraph {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .underline {
+        border-top: 1px solid black;
+        margin-bottom: 5px;
+    }
+
+    .underlineheading {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .portfolio {
+        margin-bottom: 10px
+    }
+
+    .Port {
+        text-align: center;
+        margin-bottom: auto;
+        margin-top: 10px;
+    }
+
+    .skills {
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 393px) {
+    .image {
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-radius: 100%;
+    }
+
+
+
+    .left-column {
+        float: left;
+        width: 35%;
+        background-color: lightgrey;
+        height: 2500vh;
+        border-bottom: 2px solid black;
+        border-left: 2px solid black;
+    }
+
+    .right-column {
+        margin-left: auto;
+        margin-right: auto;
+        border-right: 2px solid black;
+        height: 2000vh;
+        border-bottom: 2px solid black;
+    }
+
+    .Heading {
+        background-color: lightslategrey;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        border-top: 2px solid black;
+        text-size-adjust: auto;
+    }
+
+    .educationheading {
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 10px;
+        text-size-adjust: auto;
+    }
+
+    .headingrespon {
+        text-align: center;
+        margin-bottom: 10px;
+        text-size-adjust: auto;
+    }
+
+    .headingworkexp {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-size-adjust: auto;
+    }
+
+    .htcheading {
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .mynameheading {
+        text-align: center;
+        font-style: italic;
+        text-size-adjust: auto;
+        font-size: 5vh;
+    }
+
+    .subheading {
+        text-align: center;
+        font-family: 'Sitka Small';
+    }
+
+    .allreasonheading {
+        text-align: center;
+        margin-bottom: auto;
+        margin-top: 5px;
+        text-decoration: underline;
+    }
+
+    .cvheading {
+        text-align: center;
+        font-family: 'Sitka Heading', serif; /* Added a generic family fallback */
+        color: black;
+    }
+
+    .Heading h1, .Heading h2 {
+        margin: 0; /* This will remove the default margin */
+    }
+
+    .contact h3 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    .imagestyle {
+        vertical-align: middle;
+        width: 25px;
+        height: 25px;
+    }
+
+    .imagestyle2 {
+        vertical-align: middle;
+        width: 15px;
+        height: 15px;
+    }
+
+    hr {
+        border-top: 5px solid black;
+    }
+
+    .centered-paragraph {
+        display: block;
+        width: 197px; /* Adjust as needed */
+        margin-right: calc((65% - 197px) / 2);
+        margin-left: auto;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .centered-paragraph1 {
+        display: block;
+        width: 197px; /* Adjust as needed */
+        margin-right: calc((65% - 197px) / 2);
+        margin-left: auto;
+        margin-bottom: 5px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .paragraph1 {
+        text-align: left;
+        margin: auto;
+    }
+
+    .paragraphdefault {
+        text-align: center;
+        margin: auto;
+    }
+
+    .paragraphdefault1 {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .reasonparagraph {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .underline {
+        border-top: 1px solid black;
+        margin-bottom: 5px;
+    }
+
+    .underlineheading {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .portfolio {
+        margin-bottom: 10px
+    }
+
+    .Port {
+        text-align: center;
+        margin-bottom: auto;
+        margin-top: 10px;
+    }
+
+    .skills {
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 10px;
+    }
+
+}
