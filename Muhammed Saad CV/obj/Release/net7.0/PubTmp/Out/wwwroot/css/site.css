@@ -13,12 +13,14 @@ html {
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    width: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    width: 100%;
 }
 .navbar {
     background-color: #808080; /* This is a medium grey */
@@ -142,8 +144,7 @@ body {
     display: none;
 }
 
-.prevText, .nextText {
-}
+
 
 .nextText {
     right: 0;
@@ -256,32 +257,46 @@ h2 {
     }
 }
 
+.containertotal {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+.left-right-container {
+    display: flex;
+    width: 100%;
+    
+}
 
 .left-column {
-    float: left;
-    width: 35%;
+    flex: 0 0 35%;
     background-color: lightgrey;
-    height: 270vh;
+    padding-right: 5px;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
 }
 
 .right-column {
-    margin-left: auto;
-    margin-right: auto;
+    
+    flex-grow: 1;
+    padding-left: 10px;
     border-right: 2px solid black;
-    height: 270vh;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid black
 }
 
 .Heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lightslategrey;
-    text-align: center;
     margin: 0;
     padding: 20px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-top: 2px solid black;
+   
 }
 
 .educationheading {
@@ -307,15 +322,27 @@ h2 {
     margin-top: 10px;
 }
 
+.containerheading {
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
 .mynameheading {
-    text-align: center;
     font-style: italic;
+    align-items: flex-start;
+    display: flex;
+    font-size: calc(15px + 1.5vw);
 }
 
 .subheading {
-    text-align: center;
-    font-family:'Sitka Small';
+    font-family: 'Sitka Small';
+    align-items: flex-start;
+    display: flex;
+    font-size: calc(10px + 1vw);
 }
+
+
 
 .allreasonheading {
     text-align: center;
@@ -327,7 +354,9 @@ h2 {
 .cvheading {
     text-align: center;
     font-family: 'Sitka Heading', serif; /* Added a generic family fallback */
-    color:black;
+    color: black;
+ 
+
 }
 
 .Heading h1, .Heading h2 {
@@ -367,26 +396,31 @@ h2 {
 hr {
     border-top: 5px solid black;
 }
+.parent-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.centered-paragraph, .centered-paragraph1 {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    font-size: calc(5px + 0.5vw);
+}
 
 .centered-paragraph {
-    display: block;
-    width: 450px;
-    margin-right: calc((65% - 450px) / 2);
-    margin-left: auto;
     margin-bottom: 0;
     margin-top: 0;
-    text-align: center;
+
 }
 
 .centered-paragraph1 {
-    display: block;
-    width: 450px;
-    margin-right: calc((65% - 450px) / 2);
-    margin-left: auto;
     margin-bottom: 5px;
     margin-top: 15px;
-    text-align: center;
 }
+
 
 .paragraph1 {
     text-align: left;
@@ -437,419 +471,7 @@ hr {
 }
 
 
-/* Mobile first queries */
 
-
-/* Larger than mobile */
-
-@media (min-width: 400px) {
-}
-
-
-/* Larger than phablet */
-
-@media (min-width: 550px) {
-}
-
-
-/* Larger than tablet */
-
-@media (min-width: 750px) {
-}
-
-
-/* Larger than desktop */
-
-@media (min-width: 1000px) {
-}
-
-
-/* Larger than Desktop HD */
-
-@media (min-width: 1200px) {
-    h1 {
-        font-size: 4rem;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .image {
-        width: 100px;
-        height: 100px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        border-radius: 100%;
-    }
-    
-
-
-    .left-column {
-        float: left;
-        width: 35%;
-        background-color: lightgrey;
-        height: 1900vh;
-        border-bottom: 2px solid black;
-        border-left: 2px solid black;
-    }
-
-    .right-column {
-        margin-left: auto;
-        margin-right: auto;
-        border-right: 2px solid black;
-        height: 1900vh;
-        border-bottom: 2px solid black;
-    }
-
-    .Heading {
-        background-color: lightslategrey;
-        text-align: center;
-        margin: 0;
-        padding: 20px;
-        border-right: 2px solid black;
-        border-left: 2px solid black;
-        border-top: 2px solid black;
-        text-size-adjust:auto;
-    }
-
-    .educationheading {
-        text-align: center;
-        text-decoration: underline;
-        margin-top: 10px;
-        text-size-adjust: auto;
-    }
-
-    .headingrespon {
-        text-align: center;
-        margin-bottom: 10px;
-        text-size-adjust: auto;
-    }
-
-    .headingworkexp {
-        text-align: center;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        text-size-adjust: auto;
-    }
-
-    .htcheading {
-        text-align: center;
-        margin: auto;
-        margin-top: 10px;
-    }
-
-    .mynameheading {
-        text-align: center;
-        font-style: italic;
-        text-size-adjust:auto;
-        font-size:12vh;
-    }
-
-    .subheading {
-        text-align: center;
-        font-family: 'Sitka Small';
-    }
-
-    .allreasonheading {
-        text-align: center;
-        margin-bottom: auto;
-        margin-top: 5px;
-        text-decoration: underline;
-    }
-
-    .cvheading {
-        text-align: center;
-        font-family: 'Sitka Heading', serif; /* Added a generic family fallback */
-        color: black;
-    }
-
-    .Heading h1, .Heading h2 {
-        margin: 0; /* This will remove the default margin */
-    }
-
-    .contact h3 {
-        text-align: center;
-        margin: 0;
-        padding: 0;
-    }
-
-
-   
-    .imagestyle {
-        vertical-align: middle;
-        width: 25px;
-        height: 25px;
-    }
-
-    .imagestyle2 {
-        vertical-align: middle;
-        width: 15px;
-        height: 15px;
-    }
-
-    hr {
-        border-top: 5px solid black;
-    }
-    .centered-paragraph {
-        display: block;
-        width: 300px; /* Adjust as needed */
-        margin-right: calc((65% - 300px) / 2);
-        margin-left: auto;
-        margin-bottom: 0;
-        margin-top: 0;
-        text-align: center;
-    }
-
-    .centered-paragraph1 {
-        display: block;
-        width: 300px; /* Adjust as needed */
-        margin-right: calc((65% - 300px) / 2);
-        margin-left: auto;
-        margin-bottom: 5px;
-        margin-top: 15px;
-        text-align: center;
-    }
-
-    .paragraph1 {
-        text-align: left;
-        margin: auto;
-    }
-
-    .paragraphdefault {
-        text-align: center;
-        margin: auto;
-    }
-
-    .paragraphdefault1 {
-        text-align: center;
-        margin: auto;
-        margin-bottom: 10px;
-    }
-
-    .reasonparagraph {
-        text-align: center;
-        margin-bottom: 10px;
-        margin-top: 5px;
-    }
-
-    .underline {
-        border-top: 1px solid black;
-        margin-bottom: 5px;
-    }
-
-    .underlineheading {
-        text-align: center;
-        text-decoration: underline;
-    }
-
-    .portfolio {
-        margin-bottom: 10px
-    }
-
-    .Port {
-        text-align: center;
-        margin-bottom: auto;
-        margin-top: 10px;
-    }
-
-    .skills {
-        text-align: center;
-        text-decoration: underline;
-        margin-top: 10px;
-    }
-
-
-}
-
-@media only screen and (max-width: 393px) {
-    .image {
-        width: 100px;
-        height: 100px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        border-radius: 100%;
-    }
-
-
-
-    .left-column {
-        float: left;
-        width: 35%;
-        background-color: lightgrey;
-        height: 2500vh;
-        border-bottom: 2px solid black;
-        border-left: 2px solid black;
-    }
-
-    .right-column {
-        margin-left: auto;
-        margin-right: auto;
-        border-right: 2px solid black;
-        height: 2000vh;
-        border-bottom: 2px solid black;
-    }
-
-    .Heading {
-        background-color: lightslategrey;
-        text-align: center;
-        margin: 0;
-        padding: 20px;
-        border-right: 2px solid black;
-        border-left: 2px solid black;
-        border-top: 2px solid black;
-        text-size-adjust: auto;
-    }
-
-    .educationheading {
-        text-align: center;
-        text-decoration: underline;
-        margin-top: 10px;
-        text-size-adjust: auto;
-    }
-
-    .headingrespon {
-        text-align: center;
-        margin-bottom: 10px;
-        text-size-adjust: auto;
-    }
-
-    .headingworkexp {
-        text-align: center;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        text-size-adjust: auto;
-    }
-
-    .htcheading {
-        text-align: center;
-        margin: auto;
-        margin-top: 10px;
-    }
-
-    .mynameheading {
-        text-align: center;
-        font-style: italic;
-        text-size-adjust: auto;
-        font-size: 5vh;
-    }
-
-    .subheading {
-        text-align: center;
-        font-family: 'Sitka Small';
-    }
-
-    .allreasonheading {
-        text-align: center;
-        margin-bottom: auto;
-        margin-top: 5px;
-        text-decoration: underline;
-    }
-
-    .cvheading {
-        text-align: center;
-        font-family: 'Sitka Heading', serif; /* Added a generic family fallback */
-        color: black;
-    }
-
-    .Heading h1, .Heading h2 {
-        margin: 0; /* This will remove the default margin */
-    }
-
-    .contact h3 {
-        text-align: center;
-        margin: 0;
-        padding: 0;
-    }
-
-
-
-    .imagestyle {
-        vertical-align: middle;
-        width: 25px;
-        height: 25px;
-    }
-
-    .imagestyle2 {
-        vertical-align: middle;
-        width: 15px;
-        height: 15px;
-    }
-
-    hr {
-        border-top: 5px solid black;
-    }
-
-    .centered-paragraph {
-        display: block;
-        width: 197px; /* Adjust as needed */
-        margin-right: calc((65% - 197px) / 2);
-        margin-left: auto;
-        margin-bottom: 0;
-        margin-top: 0;
-        text-align: center;
-    }
-
-    .centered-paragraph1 {
-        display: block;
-        width: 197px; /* Adjust as needed */
-        margin-right: calc((65% - 197px) / 2);
-        margin-left: auto;
-        margin-bottom: 5px;
-        margin-top: 15px;
-        text-align: center;
-    }
-
-    .paragraph1 {
-        text-align: left;
-        margin: auto;
-    }
-
-    .paragraphdefault {
-        text-align: center;
-        margin: auto;
-    }
-
-    .paragraphdefault1 {
-        text-align: center;
-        margin: auto;
-        margin-bottom: 10px;
-    }
-
-    .reasonparagraph {
-        text-align: center;
-        margin-bottom: 10px;
-        margin-top: 5px;
-    }
-
-    .underline {
-        border-top: 1px solid black;
-        margin-bottom: 5px;
-    }
-
-    .underlineheading {
-        text-align: center;
-        text-decoration: underline;
-    }
-
-    .portfolio {
-        margin-bottom: 10px
-    }
-
-    .Port {
-        text-align: center;
-        margin-bottom: auto;
-        margin-top: 10px;
-    }
-
-    .skills {
-        text-align: center;
-        text-decoration: underline;
-        margin-top: 10px;
-    }
-
+.education {
+ 
 }
